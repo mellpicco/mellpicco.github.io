@@ -1,0 +1,178 @@
+/*
+Navigation style
+list-style none gets rid of default bullets
+must set height so that it renders correctly
+without float it would go downward
+background-color: transparent; (there is no none)
+background-color: white;
+*/
+ul.navigation {
+  background-color: white;
+  display: block;
+  list-style: none;
+  margin-top: 0;
+  width: 100%;
+  height: 42px;
+}
+
+ul.navigation li {
+  display: inline-block;
+  float: left;
+}
+
+ul.navigation a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul.navigation a:hover {
+  background-color: black;
+  color: white;
+}
+/*
+comment: second page style
+*/
+.row {
+  width: 100%;
+}
+
+.column {
+  float: left;
+}
+
+.column-75 {
+  width: 75%;
+  background-color: rgb(0, 255, 0);
+}
+
+.column-25 {
+  width: 25%;
+  background-color: rgb(0, 100, 255);
+}
+/*
+comment: second page style end
+*/
+
+
+/*
+comment: To show hover and active and visited links
+*/
+a:link {
+  color: rgb(255, 0, 0);
+}
+
+a:visited {
+  color: rgb(0, 255, 0);
+}
+
+a:hover {
+  color: rgb(0, 0, 255);
+}
+
+a:active {
+  color: rgb(0, 0, 255):
+}
+
+
+#splash {
+  background-attachment: fixed;
+  background-image: url(unsplashimage.jpg);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  background-color: #989C94;
+}
+
+body {
+  background-color: #989C94;
+}
+
+  img {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+
+p {
+
+  padding: 15px;
+  padding-left: 0;
+}
+
+p em {
+  color: rgb(255,200,40)
+}
+
+p strong {
+  color: rgb(255,200,40)
+}
+
+
+#red-herring {
+  color: rgb(255, 0, 0);
+}
+
+#orange-sherbert {
+  color: orange;
+}
+
+.navigation {
+  list-style: none;
+}
+
+.navigation {
+  font-size: large;
+}
+
+.text-paragraph {
+  font-family: sans-serif;
+}
+
+.link-paragraph {
+  font-family: cursive;
+}
+
+
+/*
+comment
+*/
+
+/*
+p {
+  color: purple;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style:
+}
+*/
+
+h1 {
+  font-family: 'Lobster', cursive;
+  padding: 25px 50px 75px 100px;
+  border: 5px solid rgb(0, 0, 0);
+  margin: 30px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+}
+
+table {
+}
+
+
+/* body {
+  background-attachment: fixed;
+  background-image: url(unsplashwater.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #989C94
+} */
